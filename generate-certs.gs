@@ -20,7 +20,7 @@ console.log("Error: child & study names don't match up");
     if (input_list_rev[i] != '') { 
       var QUERY = study_list_rev[i];
       if (QUERY == "studyname1") {
-        var fileId = "studyname1_slide-id"; //alexa_embodiment deck
+        var fileId = "studyname1_slide-id"; 
       } else if (`${QUERY}`.toLowerCase().includes("studyname2")) {   //(`${INPUT}`.toUpperCase()
         var fileId = "studyname2_slide-id"; //slide deck..etc
       } else if (`${QUERY}`.toLowerCase().includes("studyname3")) {
